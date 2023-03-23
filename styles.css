@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: rgb(115, 171, 245);
+    border-bottom: 1px solid black;
+}
+
+#lib {
+    font-weight: bold;
+    font-size: 1rem;
+    border: 1px solid black;
+    background-color: rgb(243, 243, 112);
+    padding: 1%;
+}
+
+.pre-content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.thicc {
+    height: 3rem;
+    background-color: rgb(243, 243, 112);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 1rem;
+}
+
+.frm {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input[type=text] {
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: rgb(243, 243, 112);
+    font-size: 1rem;
+}
+
+.book-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+    .pre-content {
+        display: block;
+        padding: 1rem 0 0 1rem;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+}
