@@ -38,6 +38,11 @@
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .frm {
@@ -60,6 +65,17 @@ input[type=text] {
 .book-item {
     display: flex;
     justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.ctitle {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
